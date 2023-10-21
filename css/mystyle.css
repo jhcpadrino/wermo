@@ -1,0 +1,346 @@
+
+body{
+ text-align: center;
+
+}
+
+.myheader {
+  
+  display: flex;
+  height: 200px;
+  background-color: #483D8B;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.text {
+  
+  padding-left: 25px;
+  color: white ;
+  font-size: 28px;
+ font-weight: bold;
+ text-align: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333
+
+;
+  height: 52px;
+   
+ }
+
+.topnav a {
+  color: #f2f2f2;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Helvetica", monospace;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #008080;
+  color: white;
+}
+
+
+.slideshow-container {
+  
+  max-width: 1000px;
+   position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.textslide {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.optionscontainer {
+ top:10px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+}
+
+.optionscontainer h1{
+  color: white ;
+  font-family:  'Trebuchet MS', sans-serif;
+  
+}
+
+
+.marginleft{
+font-family:  'Trebuchet MS', sans-serif;
+position:absolute;
+left:0;
+padding:5px;
+top:-10px;
+}
+.marginright{
+position:absolute;
+top:15px;
+right: 0px;
+padding:8px;
+ 
+}
+
+
+.marginright1{
+position:absolute;
+top:50px;
+right: 0px;
+padding:8px;
+ 
+}
+
+.boxes1{
+   position: relative;
+   width: 258px;
+   height: 130px;
+   padding: 35px;
+  margin-right:5px;
+ background-color: #4B0082;
+ float:left;
+}
+.boxes2{
+ float:left;
+ height: 130px;
+  position: relative;
+  width: 258px;
+  padding: 35px;
+  margin-right:5px;
+background-color: #800000;
+}
+.boxes3{
+ float:left;
+ height: 130px;
+ position: relative;
+   width: 258px;
+   padding: 35px;
+   background-color:#191970;
+}
+
+.boxes1:hover{
+  display: block;
+  background-color: #008080;
+  color: #000;
+}
+.boxes2:hover{
+  display: block;
+  background-color: #008080;
+  color: #000;
+}
+.boxes3:hover{
+  display: block;
+  background-color: #008080;
+  color: #000;
+}
+.content {
+  top: 25px;
+   max-width: 1000px;
+  position: relative;
+   margin: auto;
+
+}
+
+.content a{
+text-decoration: none;
+ color: black;
+}
+.leftcontent {
+
+ position: relative;
+   width: 500px;
+   height: 100%;
+   padding: 35px;
+   background-color: #FFE4B5;
+  float:left;
+   
+}
+
+.leftcontent h2{
+margin-top:25px;
+text-align:left;
+}
+
+.leftcontent p{
+text-align:left;
+}
+
+
+.rightcontent {
+
+ position: relative;
+   width: 350px;
+   height: 350px;
+   padding: 35px;
+ 
+ background-color:#E0FFFF;
+ float:right;
+   
+}
+
+.image{
+ position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top:0px;
+}
+
+
+.opening {
+ position: relative;
+   top:10px; 
+}
+
+
+
+.footer  {
+width:100%;
+float:left;
+margin-top:2%; 
+color: white ;
+height: 175px;
+background-color: #007a99;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+.footer1 {
+  top: 25px;
+   max-width: 1000px;
+  position: relative;
+   margin: auto;
+text-align:left;
+}
+
+
+.middlecontent{
+display:block;
+text-align:left;
+padding:10px;
+width:500px;
+margin:10px;
+border: 2px solid red;
+border-radius: 25px;
+background-color:#F0FFFF;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+.middlecontent1{
+display:block;
+text-align:left;
+padding:10px;
+width:650px;
+margin:10px;
+border: 2px solid red;
+border-radius: 25px;
+background-color:#F0FFFF;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+.vertical-menu {
+  float:left;
+  width: 200px;
+}
+
+.vertical-menu a {
+  text-align:left;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Helvetica", monospace;
+  background-color: #996633 ;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+ border-bottom: 1px solid #ddd
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #008080 ;
+  color: white;
+}
+
+
+
+
+.rightc{
+
+
+   
+   height: 100%;
+  
+ float:left;
+}
